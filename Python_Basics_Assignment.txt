@@ -1,0 +1,157 @@
+1.There ae many features of python which makes it a popular choice over other languages.Few of them are
+  i)Simple syntax : since python has a simple syntax it is easy to learn when compared to other languages
+  ii)Extensive libraries : python comes with extensive library including packages for GUI,Regular expressions
+  iii)Dynamic : Python is a dynamic language i.e no need to determine data type of variables
+  iv)Readability : As python contains simple syntax it is easy to read python code
+ 
+ 
+ 
+  
+2.Predefined keywords are reserved words in python which have a special meaning.They are used for a special purpose.
+  Few examples of predefined keywords are for,while,if,else etc.They can't be used as identifiers.
+  Ex:-"while" - while keyword is used to create a while loop in python
+      "if" - This is used to make a conditional statement
+ 
+ 
+ 
+     
+3.  MUTABLE OBJECTS:-
+    i)Objects which can be changed after creation are called mutable objects
+    ii)slower to access compared to immutable objects
+    iii)Dictionary,Sets,Lists are few examples of mutable objects
+    
+    IMMUTABLE OBJECTS:-
+    i)Objects that can't be changed after creation are called immutable objects
+    ii)faster to access compared to mutable objects
+    iii)Tuple,String are few examples of immutable objects
+  
+  
+  
+    
+4.In Python, operators are special symbols or keywords that carry out operations on values and python variables.
+  ARITHMETIC OPERATORS(+,-,*,%,/,**,//):-
+  Mathematical operations including addition, subtraction, multiplication, division,floor division,exponent comes under arithmetic operators
+  
+  COMPARISON OPERATORS(>,<,==,<=,>=,!=):-
+  To compare two values, Python comparison operators are needed.
+  Based on the comparison, they produce a Boolean value (True or False).
+  
+  ASSIGNMENT OPERATORS(=,+=,-=,*=,%=):-
+  Python assignment operators are used to assign values to variables in Python.
+  It assigns the value on the operator's right side to the variable on the operator's left side.
+  
+  BITWISE OPERATORS(&,^,~,<<,>>):-
+  Python bitwise operators execute operations on individual bits of binary integers.
+  They work with integer binary representations, performing logical operations on each bit location.
+  
+  LOGICAL OPERATORS(and,or,not):-
+  Python logical operators are used to compose Boolean expressions and evaluate their truth values.
+  Python has three basic logical operators: AND, OR, and NOT
+ 
+ 
+ 
+  
+5.The conversion of one data type into the other data type is known as type casting in python or type conversion in python
+   Python supports a wide variety of functions or methods like: int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(),    etc. for the type casting in python.
+   
+   Python Implicit Type Conversion:-
+   Implicit type conversions, in which the interpreter automatically changes one data type to another without the need for programmer          interaction, are what give Python its flexibility. Python will automatically transform the integer to a float in order to conduct the        addition, for example, if you attempt to add an integer and a float.
+   Ex:
+   num_int = 10
+   num_float = 5.5
+   result = num_int num_float  # Python automatically converts num_int to float
+   print("Result:", result)  # Output: Result: 15.5
+   
+   Python Explicit Type Conversion:-
+   Even if implicit conversion is more practical, there are times when explicit type conversion is required. Using a variety of functions      and techniques, Python enables you to manually convert variables between different types. Explicit type conversion provides control over    the data type of variables. Let’s explore explicit type conversions through examples and relevant images. Type conversion is the process    of converting a data type into another data type. Implicit type conversion is performed by a Python interpreter only. Explicit type          conversion is performed by the user by explicitly using type conversion functions in the program code. Explicit type conversion is also      known as typecasting.
+   Ex:
+   str1 = "15"
+   num1= int(str1)  # Using int() to convert str1 to an integer
+   print("Converted Integer:", num1)  # Output: Converted Integer: 15
+   
+   
+   
+   
+6.Conditional statements in Python allow you to execute different blocks of code depending on whether a condition is true or false. The most   common conditional statements are `if`, `elif`, and `else`.
+
+  i)if statement : It checks a condition. If the condition is true, it executes the block of code that follows.
+  ii)elif statement : It allows you to check multiple conditions. If the previous `if` or `elif` condition was false, the elif condition is     checked. If true, its block of code is executed.
+  iii)else statement : It catches all conditions that were false. If none of the previous conditions were true, the else block is executed.
+
+  Examples:
+
+   1. "if" 
+   
+   age = 18
+
+   if age >= 18:
+       print("You are eligible to vote.")
+   
+   *Output:*
+  
+   You are eligible to vote.
+   
+
+   2. "if-else"
+   
+   age = 16
+
+   if age >= 18:
+       print("You are eligible to vote.")
+   else:
+       print("You are not eligible to vote.")
+   
+   *Output:*
+   
+   You are not eligible to vote.
+   
+
+   3. "if-elif-else"
+   marks = 75
+
+   if marks >= 90:
+       print("Grade: A")
+   elif marks >= 80:
+       print("Grade: B")
+   elif marks >= 70:
+       print("Grade: C")
+   else:
+       print("Grade: D")
+   
+   *Output:*
+   
+   Grade: C
+   
+   
+
+
+7.In Python, loops are used to execute a block of code repeatedly as long as a certain condition is met. The main types of loops in Python     are `for` loops and `while` loops. Here's a description of each, along with examples and their use cases.
+
+  1. "for" Loop
+
+  The `for` loop in Python is used to iterate over a sequence (such as a list, tuple, dictionary, set, or string) or other iterable objects.   It repeats the block of code for each item in the sequence.
+  Ex:
+     fruits = ["apple", "banana", "cherry"]
+     for fruit in fruits:
+     print(fruit)
+     
+     output:
+     apple
+     banana
+     cherry
+     
+  2. "while" Loop
+  
+    The while loop in Python runs as long as the condition provided is true. It is used when the number of iterations is not known               beforehand   and depends on a certain condition.
+    Ex:
+    count = 0
+    while count < 5:
+    print("Count is:", count)
+    count += 1
+    
+    output:
+    Count is: 0
+    Count is: 1
+    Count is: 2
+    Count is: 3
+    Count is: 4
